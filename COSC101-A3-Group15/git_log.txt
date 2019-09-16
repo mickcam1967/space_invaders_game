@@ -1,0 +1,221 @@
+commit daec96fc8367ab7ae547af4c9851fac45192686b
+Author: Brodie Hicks <bhicks8@myune.edu.au>
+Date:   Sun May 20 11:01:54 2018 +1000
+
+    Tidied up collision responses, and the final commit!
+
+commit d2eed4409dd183838abfc776aff00a073d26f2ed
+Author: Brodie Hicks <bhicks8@myune.edu.au>
+Date:   Sat May 19 21:17:17 2018 +1000
+
+    Updated README, continued refactoring...
+
+commit 89ea6ffb26a9723f5a7912edd21afd629d7ed6b9
+Author: Brodie Hicks <bhicks8@myune.edu.au>
+Date:   Sat May 19 19:23:10 2018 +1000
+
+    Refactoring, modified Readme
+
+commit 5a4cdf949c3d40462e169ec309e526dd96946efe
+Author: Jesse241 <38688006+Jesse241@users.noreply.github.com>
+Date:   Thu May 17 15:50:04 2018 +1000
+
+    few minor changes with the laser sound effects
+
+commit d033c61bb354e12ff5e992791b10fb842dfe7c21
+Author: Jesse241 <38688006+Jesse241@users.noreply.github.com>
+Date:   Thu May 17 15:28:26 2018 +1000
+
+    sound effects added
+    
+    I've only added sound effects for the asteriods when destroyed, laser and ship being hit
+
+commit cf952bc65a11caa513211b39c2b6517de4d42475
+Author: Brodie Hicks <bhicks8@myune.edu.au>
+Date:   Mon May 14 20:45:00 2018 +1000
+
+    Slowed the game up, modified asteroid regeneration to only occur up until the limit of 20 per level, added level up text
+
+commit 0ab77abe178905d92f1ac9e85ee0ddd8b90b2fcd
+Author: Brodie Hicks <bhicks8@myune.edu.au>
+Date:   Sun May 13 22:21:47 2018 +1000
+
+    Prevented asteroids from spawning too close to the played, cleaned up BB dispaly and added vector line in TAB mode.
+
+commit 596596be343ba555353cc2e5b9f7781414465e3a
+Author: Brodie Hicks <bhicks8@myune.edu.au>
+Date:   Sat May 12 20:19:45 2018 +1000
+
+    Pressing TAB now toggles bounding box display
+
+commit a0cf3ab4563dd4c18fcc3a1363ca5ac96cb92bf3
+Author: Brodie Hicks <bhicks8@myune.edu.au>
+Date:   Sat May 12 20:03:45 2018 +1000
+
+    More tweaks to engine speed...
+
+commit 9838d3be95792116d477517984edd950fad0fb7f
+Author: Brodie Hicks <bhicks8@myune.edu.au>
+Date:   Sat May 12 20:02:23 2018 +1000
+
+    Adjust engine speed, increase asteroid count, fix asteroid velocity
+
+commit 0d6c71a3f47f56fcf260c0e0a63afb0d4d68cc13
+Author: Brodie Hicks <bhicks8@myune.edu.au>
+Date:   Sat May 12 19:44:51 2018 +1000
+
+    Added minkowski diff collision, added asteroid rotation, updated scoreboard and gameover message
+
+commit 766ff014eab6b6e94ed36ab3031b52fd69899c9e
+Author: Brodie Hicks <bhicks8@myune.edu.au>
+Date:   Tue May 8 21:01:41 2018 +1000
+
+    Initial Refactoring. Also added Asteroid rotation and size randomisation.
+
+commit 2e5c5419d2eab378e494b1923fc8ef6f6bbbe8f1
+Author: Brodie Hicks <bhicks8@myune.edu.au>
+Date:   Mon May 7 21:32:59 2018 +1000
+
+    Added scoring, levels, ship collision detection and game over message.
+
+commit d3493591be66aa100663633a923222641486e02a
+Author: Michael Campbell <38676882+mcampb58@users.noreply.github.com>
+Date:   Sat May 5 16:48:34 2018 +1000
+
+    Changed score bord to include lives
+    
+    Also changed asteroidRespawnChance from 0.80 to 1 which means asteroids will not run out prior to finishing level.
+
+commit 51722fe3323d65f4c70ad537d32e2a80f9281c14
+Author: Brodie Hicks <bhicks8@myune.edu.au>
+Date:   Sat May 5 00:25:14 2018 +1000
+
+    Resetting speedMultiplier to a sensible default...
+
+commit 50f4a0196e78b852e33f72de34c1045c5c90d9a0
+Author: Brodie Hicks <bhicks8@myune.edu.au>
+Date:   Sat May 5 00:14:46 2018 +1000
+
+    Asteroid Commit...
+
+commit 848ba697029e33cf23dbebb4afffcc54a23b1575
+Author: Michael Campbell <38676882+mcampb58@users.noreply.github.com>
+Date:   Wed May 2 20:46:18 2018 +1000
+
+    Ship
+
+commit 91208f682394d5b163ac12b443b2b4d278765dc5
+Merge: 5ea4a65 a99934d
+Author: Michael Campbell <38676882+mcampb58@users.noreply.github.com>
+Date:   Wed May 2 20:44:06 2018 +1000
+
+    Merge branch 'master' of https://github.com/bhicks8/COSC101-A3
+
+commit 5ea4a65907a02bd8623511a627626fb99c053192
+Author: Michael Campbell <38676882+mcampb58@users.noreply.github.com>
+Date:   Wed May 2 20:41:00 2018 +1000
+
+    PVectors implimented in ship controls
+
+commit a99934dc0ebfddca0446af5257eece145a82036b
+Merge: 62fa6fa 22b6b6c
+Author: Jesse241 <38688006+Jesse241@users.noreply.github.com>
+Date:   Wed May 2 20:35:51 2018 +1000
+
+    Revert "unintended commit"
+    
+    This reverts commit 62fa6faa4dba39bf8ee9545546c74a1870880a01.
+
+commit 62fa6faa4dba39bf8ee9545546c74a1870880a01
+Author: Jesse241 <38688006+Jesse241@users.noreply.github.com>
+Date:   Wed May 2 20:34:30 2018 +1000
+
+    unintended commit
+
+commit 22b6b6cc30aed4677e254e5c90a01c154a2593f5
+Author: Michael Campbell <38676882+mcampb58@users.noreply.github.com>
+Date:   Wed May 2 20:31:17 2018 +1000
+
+    PVectors for ship have been implimented
+    
+    a
+
+commit 64ad5f420eb333abc736370e580aa9d2b38c8e60
+Author: Jesse241 <38688006+Jesse241@users.noreply.github.com>
+Date:   Mon Apr 30 21:58:28 2018 +1000
+
+    Lasers
+    
+    Minor updates to lasers
+
+commit 381ab91da05690f9cbb0601580289c8f29a1a9e5
+Author: Jesse241 <38688006+Jesse241@users.noreply.github.com>
+Date:   Mon Apr 30 19:36:42 2018 +1000
+
+    Added Basic Laser projectiles
+    
+    Did make a Laser class to do this
+
+commit 33eacb2eda75662c8618b101401efa7e25d646a1
+Author: Michael Campbell <38676882+mcampb58@users.noreply.github.com>
+Date:   Sat Apr 28 06:04:08 2018 +1000
+
+    Changed a few of the comment lines
+
+commit f5a49435ecd825713f5125f5f1e69ed30f5b1798
+Author: Michael Campbell <38676882+mcampb58@users.noreply.github.com>
+Date:   Fri Apr 27 06:56:15 2018 +1000
+
+    Updated score board.
+
+commit 90f7c875757cf78f8009acdd9d126b1c7b8e59b6
+Author: Michael Campbell <38676882+mcampb58@users.noreply.github.com>
+Date:   Thu Apr 26 06:21:24 2018 +1000
+
+    Updated comments
+    
+    Comment headers have been added to the start of each functions both completed and to be completed. Please update comments and change dates as required. MC
+
+commit 630e584562360d9b10d810f1147c9c56baf60884
+Author: Michael Campbell <38676882+mcampb58@users.noreply.github.com>
+Date:   Wed Apr 25 09:01:22 2018 +1000
+
+    Soace function not working
+
+commit b87556b58061a16e7f933bafc8dca7a250def697
+Author: Michael Campbell <38676882+mcampb58@users.noreply.github.com>
+Date:   Wed Apr 25 08:57:10 2018 +1000
+
+    Images sorced from.
+
+commit a04401828d722c011aa6e5060e09b39e666fc168
+Author: Michael Campbell <38676882+mcampb58@users.noreply.github.com>
+Date:   Wed Apr 25 08:47:59 2018 +1000
+
+    this is a test message
+
+commit d3161a3e3e3ddd37c5568f3582050d3907d99c41
+Author: Brodie Hicks <bhicks8@myune.edu.au>
+Date:   Tue Apr 24 19:20:44 2018 +1000
+
+    Test update to README
+
+commit 535e0d7712deafff39a42eb483393024f2582d57
+Author: Michael Campbell <38676882+mcampb58@users.noreply.github.com>
+Date:   Tue Apr 24 19:17:45 2018 +1000
+
+    change of folder name
+
+commit 1105f9d8d2631787343894001665a6174bbd4217
+Author: bhicks8 <36807258+bhicks8@users.noreply.github.com>
+Date:   Tue Apr 24 18:46:27 2018 +1000
+
+    Add files via upload
+    
+    Initial Commit...
+
+commit 7b04fe2ae9712e937bb21767f6e9d3a3e877c957
+Author: bhicks8 <36807258+bhicks8@users.noreply.github.com>
+Date:   Tue Apr 24 18:41:22 2018 +1000
+
+    Initial commit
